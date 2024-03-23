@@ -1,0 +1,19 @@
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu > div, .menu > span{
+    padding: 6px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.weather, .date, .main{
+    border: 1px solid black;
+    padding: 16px;
+}
